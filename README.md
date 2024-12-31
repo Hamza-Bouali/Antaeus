@@ -24,12 +24,12 @@ we recommend to use the kaggle notebook to run the backend server
 
 ## Usage
 1. open the notebook inside the project (notebook.ipynb) and wait until it reach the last cell of code.
-
-2. inside the directory there is a folder named front , open it with the terminal and run this commands
+2. select the url and then open the file App.jsx file , search for the varibale url ,and set it to the result. 
+3. inside the directory there is a folder named front , open it with the terminal and run this commands
    ```bash
    npm run dev
    ```
-3. Interact with the chatbot through the command line or web interface.
+4. Interact with the chatbot through the command line or web interface.
 
 ## Technologies Used
 - **Programming Language:** Python , javascript 
