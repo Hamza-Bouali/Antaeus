@@ -1,7 +1,7 @@
 # Antaeus : Disaster Assistance Chatbot
 
 ## Overview
-This repository contains the code and resources for a chatbot designed to assist users in disaster-affected areas. The chatbot provides real-time support, information, and connections to emergency services, helping to ensure safety and survival during critical times.
+This repository contains the code and resources for a chatbot designed to assist users in disaster-affected areas. The chatbot provides real-time damage detection and classification by analysing satellite imagery ,support, information, and connections to emergency services, helping to ensure safety and survival during critical times.
 
 ## Features
 - **Emergency Alerts:** Notifications and updates about ongoing disasters in the user’s vicinity.
@@ -23,7 +23,7 @@ This repository contains the code and resources for a chatbot designed to assist
 we recommend to use the kaggle notebook to run the backend server
 
 ## Usage
-1. open the notebook inside the project (notebook.ipynb) and wait until it reach the last cell of code.
+1. open the notebook inside the project (notebook.ipynb) and wait until it reaches the last cell of code.
 2. select the url and then open the file App.jsx file , search for the varibale url ,and set it to the result. 
 3. inside the directory there is a folder named front , open it with the terminal and run this commands
    ```bash
