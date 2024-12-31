@@ -53,7 +53,7 @@ we recommend to use the kaggle notebook to run the backend server
 **Map API Integration**: To connect the chatbot with a geospatial map, allowing users to query for geographical insights related to disasters and predictions.
 
 ### Frontend
-**JavaScript**: For building the interactive, dynamic features of the frontend interface, such as handling user input and displaying data.
+**JavaScript**: For building the interactive, dynamic features of the frontend interface, such as handling user input and displaying data.      
 **React**: Used for building the user interface (UI), ensuring a smooth and responsive experience when interacting with the disaster data, predictions, and chatbot.
 
 ## Contributing
