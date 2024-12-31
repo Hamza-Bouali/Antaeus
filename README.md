@@ -58,3 +58,6 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 - Emergency responders for their valuable input on disaster management.
 - Open-source contributors who inspired this project.
+
+## Contact : 
+- for more contact [reda elkate](https://github.com/redaelkate) or [Hamza Bouali](https://github.com/Hamza-Bouali).
