@@ -46,6 +46,9 @@ we recommend to use the kaggle notebook to run the backend server
 **Mistral NeMo Instruct 22B**: Used for training the conversational AI model, which is optimized for instruction-following tasks to handle complex queries and provide insights.
 
 **4-bit Quantization**: For efficient deployment of the Mistral NeMo Instruct 22B model, reducing its memory footprint and enabling faster inference without compromising performance.
+### Backend&API
+
+### Front-end
 
 ## Contributing
 Contributions are welcome! To contribute:
