@@ -33,20 +33,14 @@ we recommend to use the kaggle notebook to run the backend server
 
 ## Technologies Used
 ### Machine Learning & Deep Learning:
-**Siamese Networks**: For the damage prediction model, we use a neural network architecture inspired by Siamese networks, which compares pre- and post-disaster images to predict damage levels.
-
-**Swin Transformer**: Used for the disaster classification model, leveraging the power of Swin Transformers to classify disasters (e.g., hurricanes, floods, wildfires, earthquakes) based on satellite imagery.
-
-**PyTorch**: This framework was used used to train and deploy the machine learning models.
-
-**XBD Dataset**: The model training was done on the XBD dataset, a benchmark dataset for disaster damage detection in satellite imagery, provided by xview2.
+**Siamese Networks**: For the damage prediction model, we use a neural network architecture inspired by Siamese networks, which compares pre- and post-disaster images to predict damage levels.   
+**Swin Transformer**: Used for the disaster classification model, leveraging the power of Swin Transformers to classify disasters (e.g., hurricanes, floods, wildfires, earthquakes) based on satellite imagery.   
+**PyTorch**: This framework was used used to train and deploy the machine learning models.     
+**XBD Dataset**: The model training was done on the XBD dataset, a benchmark dataset for disaster damage detection in satellite imagery, provided by xview2.      
 ### Chatbot & Conversational Interface:
-**Function Calling**: Integrated with the chatbot to dynamically interact with external APIs (e.g., map API) to provide geographical insights and actionable information based on disaster data and predictions.
-
-**Mistral NeMo Instruct 22B**: Used for training the conversational AI model, which is optimized for instruction-following tasks to handle complex queries and provide insights.
-
-**4-bit Quantization**: For efficient deployment of the Mistral NeMo Instruct 22B model, reducing its memory footprint and enabling faster inference without compromising performance.
-
+**Function Calling**: Integrated with the chatbot to dynamically interact with external APIs (e.g., map API) to provide geographical insights and actionable information based on disaster data and predictions.    
+**Mistral NeMo Instruct 22B**: Used for training the conversational AI model, which is optimized for instruction-following tasks to handle complex queries and provide insights.     
+**4-bit Quantization**: For efficient deployment of the Mistral NeMo Instruct 22B model, reducing its memory footprint and enabling faster inference without compromising performance.        
 ### Backend & APIs:
 **FastAPI**: For serving the models and handling requests, ensuring fast and efficient communication between the frontend and the backend.   
 **ngrok**: Used for creating secure tunnels to expose the FastAPI backend to the internet, useful for testing and development.   
