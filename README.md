@@ -32,8 +32,11 @@ we recommend to use the kaggle notebook to run the backend server
 4. Interact with the chatbot through the command line or web interface.
 
 ## Technologies Used
-- **Programming Language:** Python , javascript 
-- **Frameworks:** FastAPI , react
+### Machine Learning & Deep Learning:
+**Siamese Networks**: For the damage prediction model, we use a neural network architecture inspired by Siamese networks, which compares pre- and post-disaster images to predict damage levels.
+**Computer Vision**: For disaster classification (e.g., hurricanes, floods, wildfires, earthquakes) based on satellite imagery, leveraging advanced image classification models.
+**PyTorch**: This framework was used used to train and deploy the machine learning models.
+**XBD Dataset**: The model training was done on the XBD dataset, a benchmark dataset for disaster damage detection in satellite imagery, provided by xview2.
 
 ## Contributing
 Contributions are welcome! To contribute:
