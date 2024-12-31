@@ -40,6 +40,12 @@ we recommend to use the kaggle notebook to run the backend server
 **PyTorch**: This framework was used used to train and deploy the machine learning models.
 
 **XBD Dataset**: The model training was done on the XBD dataset, a benchmark dataset for disaster damage detection in satellite imagery, provided by xview2.
+### Chatbot & Conversational Interface:
+**Function Calling**: Integrated with the chatbot to dynamically interact with external APIs (e.g., map API) to provide geographical insights and actionable information based on disaster data and predictions.
+
+**Mistral NeMo Instruct 22B**: Used for training the conversational AI model, which is optimized for instruction-following tasks to handle complex queries and provide insights.
+
+**4-bit Quantization**: For efficient deployment of the Mistral NeMo Instruct 22B model, reducing its memory footprint and enabling faster inference without compromising performance.
 
 ## Contributing
 Contributions are welcome! To contribute:
