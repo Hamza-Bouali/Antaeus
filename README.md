@@ -35,7 +35,7 @@ we recommend to use the kaggle notebook to run the backend server
 ### Machine Learning & Deep Learning:
 **Siamese Networks**: For the damage prediction model, we use a neural network architecture inspired by Siamese networks, which compares pre- and post-disaster images to predict damage levels.
 
-**Computer Vision**: For disaster classification (e.g., hurricanes, floods, wildfires, earthquakes) based on satellite imagery, leveraging advanced image classification models.
+**Swin Transformer**: Used for the disaster classification model, leveraging the power of Swin Transformers to classify disasters (e.g., hurricanes, floods, wildfires, earthquakes) based on satellite imagery.
 
 **PyTorch**: This framework was used used to train and deploy the machine learning models.
 
