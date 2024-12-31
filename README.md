@@ -46,9 +46,15 @@ we recommend to use the kaggle notebook to run the backend server
 **Mistral NeMo Instruct 22B**: Used for training the conversational AI model, which is optimized for instruction-following tasks to handle complex queries and provide insights.
 
 **4-bit Quantization**: For efficient deployment of the Mistral NeMo Instruct 22B model, reducing its memory footprint and enabling faster inference without compromising performance.
-### Backend&API
 
-### Front-end
+### Backend & APIs:
+**FastAPI**: For serving the models and handling requests, ensuring fast and efficient communication between the frontend and the backend.   
+**ngrok**: Used for creating secure tunnels to expose the FastAPI backend to the internet, useful for testing and development.   
+**Map API Integration**: To connect the chatbot with a geospatial map, allowing users to query for geographical insights related to disasters and predictions.
+
+### Frontend
+**JavaScript**: For building the interactive, dynamic features of the frontend interface, such as handling user input and displaying data.
+**React**: Used for building the user interface (UI), ensuring a smooth and responsive experience when interacting with the disaster data, predictions, and chatbot.
 
 ## Contributing
 Contributions are welcome! To contribute:
